@@ -18,7 +18,8 @@ Here is a basic overview of the project:<br>
 Home page/Index page:
 Anyone can access this page by going to "/" or "/index". No authorization needed.
 
-![index](https://user-images.githubusercontent.com/64978219/124875329-962ffa00-dfea-11eb-8604-44687b87a14d.JPG)
+![screencapture-file-D-SpringBoot-Projects-src-main-resources-templates-index-html-2021-07-10-23_57_58](https://user-images.githubusercontent.com/64978219/125172457-aa871900-e1db-11eb-8cc5-23e6796b8a89.png)
+
 
 Login and Registration page:
 Can be accessed by anyone.<br>
