@@ -6,7 +6,7 @@
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	
+	<link rel="stylesheet" type="text/css" media="screen" th:href="@{/login.css}">
 </head>
 <body>
 <nav class="navbar navbar-dark bg-dark">
@@ -27,10 +27,10 @@
 	<br>
 	<br>
 	<div class = "container">
-		<div class = "row">
-			<div class = "col-md-6 col-md-offset-3">
+		<div class = "main-row">
+			<div class = "col-md-12 col-md-offset-3">
 				
-				<h1> Sign In here </h1>
+				<h1 style="text-align:center;"> Sign In here </h1>
 				<form th:action="@{/login}" method="post">
 					<!-- error message -->
 					<div th:if="${param.error}">
@@ -56,14 +56,14 @@
 					
 					<div class="form-group">
 						<div class="row">
-							<div class="col-sm-6 col-sm-offset-3">
+							<div class="col-sm-6 col-sm-offset-3 login-btn">
 								<input style="margin-top: 15px" type="submit" name="login-submit" id="login-submit"
 									class="btn btn-primary" value="Log In" />
 							</div>
 						</div>
 					</div>
 				</form>
-				<div class="form-group">
+				<div class="form-group reg-link">
 						<span>New user? <a href="/" th:href="@{/registration}">Register
 								here</a></span>
 				</div>
