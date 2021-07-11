@@ -23,8 +23,7 @@ Anyone can access this page by going to "/" or "/index". No authorization needed
 
 Login and Registration page:
 Can be accessed by anyone.<br>
-
-![login](https://user-images.githubusercontent.com/64978219/124875673-fd4dae80-dfea-11eb-85b6-b9618049b518.JPG)
+![log](https://user-images.githubusercontent.com/64978219/125206715-7cbcd580-e2aa-11eb-8c5c-774d3809b963.JPG)
 
 ![Registration](https://user-images.githubusercontent.com/64978219/124875693-02126280-dfeb-11eb-99e8-5b222cf347ef.JPG)
 Courses page:
