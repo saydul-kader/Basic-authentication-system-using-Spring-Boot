@@ -25,11 +25,12 @@ Login and Registration page:
 Can be accessed by anyone.<br>
 ![log](https://user-images.githubusercontent.com/64978219/125206715-7cbcd580-e2aa-11eb-8c5c-774d3809b963.JPG)
 
-![Registration](https://user-images.githubusercontent.com/64978219/124875693-02126280-dfeb-11eb-99e8-5b222cf347ef.JPG)
+![Register](https://user-images.githubusercontent.com/64978219/125334957-c7ebec80-e36d-11eb-8b49-a8b7d9a3c59c.JPG)
+
 Courses page:
 When any user tries to click in the "Free Course" link or access to "/courses", he will be redirected to the "Courses" page. But to access this page authorization is required. Users are needed to be logged in to access this page. Otherwise they will be redirected to the Login page.
 
-![courses](https://user-images.githubusercontent.com/64978219/124876229-954b9800-dfeb-11eb-9507-b8894ec4d6a8.JPG)
+![course](https://user-images.githubusercontent.com/64978219/125334991-d33f1800-e36d-11eb-8d86-490644ced704.JPG)
 
 MySQL database:
 This is where the information of the users are stored.
