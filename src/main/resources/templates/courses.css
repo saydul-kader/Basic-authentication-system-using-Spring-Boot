@@ -1,0 +1,14 @@
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.courses{
+    margin: 15px auto;
+    width: 60%;
+}
+
+.course-img{
+    width: 85%;
+    height: 85%;
+}

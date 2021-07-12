@@ -1,28 +1,77 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org"
-      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
 <head>
     <meta charset="UTF-8">
     <title>Free courses</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="courses.css">
+    </head>
+
 <body>
-<nav class="navbar navbar-dark bg-dark">
-    <div class="container-fluid">
-        <a style="margin-left: 50px" href="/" class="navbar-brand">eCourse App</a>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a style="margin-left: 50px" href="/" class="navbar-brand">eCourse App</a>
 
-        <form class="d-flex" style="margin-right: 50px">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li sec:authorize="isAuthenticated()">
-                    <a class="btn btn-primary" th:href="@{/logout}">Logout</a>
-                </li>
+            <form class="d-flex" style="margin-right: 50px">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li sec:authorize="isAuthenticated()">
+                        <a class="btn btn-primary" th:href="@{/logout}">Logout</a>
+                    </li>
 
-            </ul>
-        </form>
-
+                </ul>
+            </form>
+        </div>
+    </nav>
+    <h1 class="title">Free Courses</h1>
+    <div class="courses">
+        <div class="row g-0 bg-light position-relative">
+            <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="D:\SpringBoot Projects\src\main\resources\templates\images\course-content.jpg" class="course-img" alt="content">
+            </div>
+            <div class="col-md-6 p-4 ps-md-0">
+                <h5 class="mt-0">Course Title</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim, turpis ac condimentum euismod, urna ex bibendum nibh, id volutpat tellus nunc id diam.
+                    Sed blandit a justo eu molestie.
+                    Aliquam iaculis eu lorem sed porttitor. Quisque in eros in quam ultricies accumsan.
+                    Etiam eleifend velit tortor, sed semper velit mattis vitae. Maecenas in enim a tellus dapibus scelerisque.
+                     Aenean ut augue consequat mauris iaculis dapibus nec at metus.
+                    </p>
+                <a href="#" class="btn btn-primary">See Course Content</a>
+            </div>
+        </div>
     </div>
-</nav>
-    <h1 style="text-align: center">Free Courses</h1>
+    <div class="courses">
+        <div class="row g-0 bg-light position-relative">
+            <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="D:\SpringBoot Projects\src\main\resources\templates\images\course-content.jpg" class="course-img" alt="content">
+            </div>
+            <div class="col-md-6 p-4 ps-md-0">
+                <h5 class="mt-0">Course Title</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim, turpis ac condimentum euismod, urna ex bibendum nibh, id volutpat tellus nunc id diam.
+                    Sed blandit a justo eu molestie.
+                    Aliquam iaculis eu lorem sed porttitor. Quisque in eros in quam ultricies accumsan.
+                    Etiam eleifend velit tortor, sed semper velit mattis vitae. Maecenas in enim a tellus dapibus scelerisque. Aenean ut augue consequat mauris iaculis dapibus nec at metus.</p>
+                <a href="#" class="btn btn-primary">See Course Content</a>
+            </div>
+        </div>
+    </div>
+    <div class="courses">
+        <div class="row g-0 bg-light position-relative">
+            <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="D:\SpringBoot Projects\src\main\resources\templates\images\course-content.jpg" class="course-img" alt="content">
+            </div>
+            <div class="col-md-6 p-4 ps-md-0">
+                <h5 class="mt-0">Course Title</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim, turpis ac condimentum euismod, urna ex bibendum nibh, id volutpat tellus nunc id diam.
+                    Sed blandit a justo eu molestie.
+                    Aliquam iaculis eu lorem sed porttitor. Quisque in eros in quam ultricies accumsan.
+                    Etiam eleifend velit tortor, sed semper velit mattis vitae. Maecenas in enim a tellus dapibus scelerisque. Aenean ut augue consequat mauris iaculis dapibus nec at metus.</p>
+                <a href="#" class="btn btn-primary">See Course Content</a>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
